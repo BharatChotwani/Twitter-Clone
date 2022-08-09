@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #e6ecf0;
+    --secondary-color: #50b7f5;
+    --text-color:#0f1419;
+}
+
+.feed{
+    flex: 0.5;
+    border-right: 1px solid var(--primary-color);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.feed_header{
+    position: static;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--primary-color);
+    padding: 15px 20px;
+
+}
+
+.feed_header .right-side-icon{
+    float: right;
+}
