@@ -1,74 +1,73 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --primary-color: #e6ecf0;
-    --secondary-color: #50b7f5;
-    --text-color:#0f1419;
+:root {
+  --primary-color: #e6ecf0;
+  --secondary-color: #50b7f5;
+  --text-color: #0f1419;
 }
 
-body{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    min-width: 320px;
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 10px;
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
 }
-.sidebar{
-    border-right: 1px solid var(--primary-color);
-    flex: 0.2;
-    min-width: 100px;
-    margin-top: 20px;
-    overflow-y: scroll;
-}
-
-.sidebar .fa-twitter{
-color: var(--secondary-color);
-font-size: 40px;
+.sidebar {
+  border-right: 1px solid var(--primary-color);
+  flex: 0.2;
+  min-width: 100px;
+  overflow-y: scroll;
 }
 
-.fa-twitter:hover{
-    background-color: #cee2ee;
-    border-radius: 50%;
+.sidebar .fa-twitter {
+  color: var(--secondary-color);
+  font-size: 40px;
 }
 
-.sidebar-icon{
-    display: flex; /* read about flex */
-    align-items: center;
-    cursor: pointer;
+.fa-twitter:hover {
+  background-color: #cee2ee;
+  border-radius: 50%;
 }
 
-.sidebar-icon .material-symbols-outlined, .fa-twitter{
-    padding: 1.25rem;
-    font-size: 30px;
+.sidebar-icon {
+  display: flex; /* read about flex */
+  align-items: center;
+  cursor: pointer;
 }
 
-.sidebar-icon .material-symbols-outlined:hover{
-    background-color: var(--primary-color);
-    border-radius: 50%;
+.sidebar-icon .material-symbols-outlined,
+.fa-twitter {
+  padding: 0.75rem;
+  font-size: 30px;
 }
 
-#sidebar-btn{
-    width: 100%;
-    height: 50px;
-    background-color: var(--secondary-color);
-    padding: 14px;
-    font-size: 16px;
-    border: none;
-    border-radius: 50px;
-    color: white;
-    font-weight: 900;
-    cursor: pointer;
-    margin-bottom: 16px;
+.sidebar-icon .material-symbols-outlined:hover {
+  background-color: var(--primary-color);
+  border-radius: 50%;
 }
 
-#sidebar-btn:hover{
-    background-color: #29a2ed;
+#sidebar-btn {
+  width: 100%;
+  height: 50px;
+  background-color: var(--secondary-color);
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  margin-bottom: 16px;
 }
 
+#sidebar-btn:hover {
+  background-color: #29a2ed;
+}

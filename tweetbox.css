@@ -1,52 +1,51 @@
-:root{
-    --primary-color: #e6ecf0;
-    --secondary-color: #50b7f5;
-    --text-color:#0f1419;
+:root {
+  --primary-color: #e6ecf0;
+  --secondary-color: #50b7f5;
+  --text-color: #0f1419;
 }
 
-.feed{
-    flex: 0.5;
-    border-right: 1px solid var(--primary-color);
-    min-width: fit-content;
-    overflow-y: scroll;
+.feed {
+  flex: 0.5;
+  border-right: 1px solid var(--primary-color);
+  min-width: fit-content;
+  overflow-y: scroll;
 }
 
-.feed_header{
-    position: static;
-    top: 0;
-    background-color: white;
-    z-index: 100;
-    border: 1px solid var(--primary-color);
-    padding: 15px 20px;
+.feed_header {
+  position: static;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--primary-color);
+  padding: 15px 20px;
 }
 
-.feed_header h2{ 
-    font-size: 20px;
-    font-weight: 800;
- }
+.feed_header h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
 
- .feed::-webkit-scrollbar{
-    display: none;
- }
+.feed::-webkit-scrollbar {
+  display: none;
+}
 
- .feed {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
- }
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
-
-.feed_header .right-side-icon{
-    float: right;
+.feed_header .right-side-icon {
+  float: right;
 }
 
 /* tweetbox */
 
-.tweetbox{
-padding-bottom: 10px;
-border-bottom: 8px solid var(--primary-color);
+.tweetbox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--primary-color);
 }
 
-.tweetbox_input img{
-    height: 50px;
-    border-radius: 50%;
+.tweetbox_input img {
+  height: 50px;
+  border-radius: 50%;
 }
