@@ -1,96 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bharat: Twitter-Clone</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles.css" type="text/css" />
-    <link rel="stylesheet" href="tweetbox.css">
-</head>
-<body>
+    <link rel="stylesheet" href="tweetbox.css" />
+  </head>
+  <body>
     <!--  Sidebar start -->
     <div class="sidebar">
-        <i class="fab fa-twitter"></i>
-        <div class="sidebar-icon active">
-            <span class="material-symbols-outlined">
-                home
-            </span>
-        </div>
-        <div class="sidebar-icon">
-            <span class="material-symbols-outlined">
-                tag
-                </span>
-        </div>
-        <div class="sidebar-icon">
-            <span class="material-symbols-outlined">
-                search
-            </span>
-        </div>
-        <!-- 4 -->
-        <div class="sidebar-icon">
-            <span class="material-symbols-outlined">
-                notifications
-            </span>
-        </div>
-        <div class="sidebar-icon">
-            <span class="material-symbols-outlined">
-                mail
-                </span>
-        </div>
-        <div class="sidebar-icon">
-            <span class="material-symbols-outlined">
-                person_2
-                </span>
-        </div>
-        <div class="sidebar-icon">
-            <span class="material-symbols-outlined">
-                bookmark
-                </span>
-        </div>
-        <div class="sidebar-icon">
-            <span class="material-symbols-outlined">
-                more_horiz
-                </span>
-        </div>
-        <button id="sidebar-btn" value="twitter">Twitter</button>
+      <i class="fab fa-twitter"></i>
+      <div class="sidebar-icon active">
+        <span class="material-symbols-outlined"> home </span>
+      </div>
+      <div class="sidebar-icon">
+        <span class="material-symbols-outlined"> tag </span>
+      </div>
+      <div class="sidebar-icon">
+        <span class="material-symbols-outlined"> search </span>
+      </div>
+      <!-- 4 -->
+      <div class="sidebar-icon">
+        <span class="material-symbols-outlined"> notifications </span>
+      </div>
+      <div class="sidebar-icon">
+        <span class="material-symbols-outlined"> mail </span>
+      </div>
+      <div class="sidebar-icon">
+        <span class="material-symbols-outlined"> person_2 </span>
+      </div>
+      <div class="sidebar-icon">
+        <span class="material-symbols-outlined"> bookmark </span>
+      </div>
+      <div class="sidebar-icon">
+        <span class="material-symbols-outlined"> more_horiz </span>
+      </div>
+      <button id="sidebar-btn" value="twitter">Twitter</button>
     </div>
     <!-- Sidebar end -->
 
     <!-- Feed start -->
     <div class="feed">
-     <header class="feed_header">
-      <h2>Home <div class="right-side-icon">
-        <span class="material-symbols-outlined">
-            auto_awesome
-        </span>
-     </div></h2>
-     
-    </header>
-    <div class="tweetbox">
+      <header class="feed_header">
+        <h2>
+          Home
+          <div class="right-side-icon">
+            <span class="material-symbols-outlined"> auto_awesome </span>
+          </div>
+        </h2>
+      </header>
+      <div class="tweetbox">
         <form>
-            <div class="tweetbox_input">
-                <img 
-                src="/images/unsplash.jpg" 
-                alt="Avtara" />
-                <input type="text" placeholder="What's happening? " />
-            </div>
-            <div class="bottom-side-tweetbox">
-                <div class="tweet-icons">
-                    <!-- <img src="#" alt="Media">
+          <div class="tweetbox_input">
+            <img src="/images/unsplash.jpg" alt="Avtara" />
+            <input type="text" placeholder="What's happening? " />
+          </div>
+          <div class="bottom-side-tweetbox">
+            <div class="tweet-icons">
+              <!-- <img src="#" alt="Media">
                     <img src="#" alt="GIF">
                     <img src="#" alt="Poll">
                     <img src="#" alt="Emoji">
                     <img src="#" alt="Schedule">
                     <img src="#" alt="Tag Location"> -->
-                </div>
-            <button class="tweetButton">Tweet</button>
             </div>
+            <button class="tweetButton">Tweet</button>
+          </div>
         </form>
-    </div>
+      </div>
     </div>
     <!-- Feed end -->
-</body>
+  </body>
 </html>
