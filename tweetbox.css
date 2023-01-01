@@ -18,12 +18,17 @@
   z-index: 100;
   border: 1px solid var(--primary-color);
   padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .feed_header h2 {
   font-size: 20px;
   font-weight: 800;
   cursor: pointer;
+  padding: 2px;
 }
 
 .feed::-webkit-scrollbar {
@@ -35,8 +40,9 @@
   scrollbar-width: none;
 }
 
-.feed_header .right-side-icon {
-  float: right;
+.feed_header .right-side-icon:hover {
+  border-radius: 16px;
+  background-color: var(--primary-color);
 }
 
 /* tweetbox */
