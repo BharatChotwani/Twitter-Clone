@@ -109,9 +109,16 @@ body {
 .post-section-body .post-footer {
   display: flex;
   flex-direction: row;
-  /* column-gap: 120px; */
-  /* justify-content: center; */
   justify-content: space-between;
+}
+
+.post-footer .material-symbols-outlined {
+  padding: 5px;
+}
+
+.post-footer .material-symbols-outlined:hover {
+  background-color: #deeef7;
+  border-radius: 50%;
 }
 
 .verify {

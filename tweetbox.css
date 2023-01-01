@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --primary-color: #e6ecf0;
   --secondary-color: #50b7f5;
@@ -38,6 +44,10 @@
 .feed {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.feed_header .right-side-icon {
+  padding: 5px;
 }
 
 .feed_header .right-side-icon:hover {
