@@ -72,3 +72,77 @@ body {
 #sidebar-btn:hover {
   background-color: #29a2ed;
 }
+
+/* Styling Posts section */
+
+.post {
+  display: flex;
+  align-items: flex-start;
+  width: 60%;
+  border-right: 1px solid var(--primary-color);
+  padding: 12px 16px;
+}
+
+.post-avatar {
+  margin-right: 12px;
+}
+
+.post-avatar img {
+  border-radius: 50%;
+  height: 50px;
+  border-bottom: 1px solid var(--primary-color);
+  padding-bottom: 10px;
+  margin-right: 12px;
+}
+
+.post-section-body {
+  flex: 1;
+  padding: 10px;
+}
+
+.post-section-body img {
+  width: 500px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.post-section-body .post-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.post-footer .material-symbols-outlined {
+  padding: 5px;
+}
+
+.post-footer .material-symbols-outlined:hover {
+  background-color: #deeef7;
+  border-radius: 50%;
+}
+
+.verify {
+  font-weight: 600;
+  font-size: 14px;
+  color: gray;
+  font-family: inherit;
+}
+
+.post-header-text h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.font-badge {
+  font-size: 14px !important;
+  color: var(--secondary-color);
+  margin-right: 5px;
+}
+
+.post-header-description {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  /* word-break: break-all; */
+  padding: 5px;
+}
