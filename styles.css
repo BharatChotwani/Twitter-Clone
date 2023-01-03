@@ -73,12 +73,110 @@ body {
   background-color: #29a2ed;
 }
 
+/* tweetbox star */
+.feed {
+  flex: 0.5;
+  border-right: 1px solid var(--primary-color);
+  min-width: fit-content;
+  overflow-y: scroll;
+  width: 80px;
+  min-width: 70%;
+  max-width: 90%;
+  word-break: break-all;
+}
+
+.feed_header {
+  position: static;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--primary-color);
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed_header h2 {
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.feed_header .right-side-icon {
+  padding: 5px;
+}
+
+.feed_header .right-side-icon:hover {
+  border-radius: 16px;
+  background-color: var(--primary-color);
+}
+
+/* tweetbox */
+
+.tweetbox {
+  padding: 4px 10px 4px 10px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.tweetbox form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweetbox_input {
+  display: flex;
+  padding: 18px;
+  flex-direction: row;
+}
+
+.tweetbox_input img {
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.tweetbox_input input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.tweetButton {
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 30px;
+  font-family: inherit;
+  font-weight: 900;
+  color: white;
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: auto;
+  display: inherit;
+}
+
+/* tweetbox end */
+
 /* Styling Posts section */
 
 .post {
   display: flex;
   align-items: flex-start;
-  width: 60%;
+  /* width: 60%; */
   border-right: 1px solid var(--primary-color);
   padding: 12px 16px;
 }
@@ -143,6 +241,48 @@ body {
   margin-bottom: 10px;
   font-size: 15px;
   font-family: inherit;
-  /* word-break: break-all; */
   padding: 5px;
+}
+
+/* explore section start */
+.explore-section {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  flex: 0.3;
+}
+
+.explore-section .search-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.search-box .Search-Icon {
+  color: gray;
+}
+
+.search-box input {
+  border: none;
+  background-color: var(--primary-color);
+  outline: none;
+  margin-left: 10px;
+}
+
+.explore-container {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.explore-container h2 {
+  font-size: 1.2rem;
+  font-weight: 800;
 }
